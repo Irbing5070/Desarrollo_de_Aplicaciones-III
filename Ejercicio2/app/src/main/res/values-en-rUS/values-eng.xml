@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Person Class</string>
+    <string name="nombre">Name:</string>
+    <string name="boton1">Show Data:</string>
+    <string name="resultado">Person Data:</string>
+    <string name="mujer">Women</string>
+    <string name="hombre">Man</string>
+    <string name="ejercicio">Do exercise everyday</string>
+    <string name="estatura">Heigth in meters</string>
+    <string name="peso">Weigth in kg</string>
+    <string name="limpiar">Clear all data</string>
+    <string name="regresar">Back</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
