@@ -76,12 +76,19 @@
         android:layout_weight="1"
         />
     <Button
-        android:layout_width="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/limpiar"
+    android:id="@+id/btnLimpiar"
+    android:layout_weight="1"
+    />
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/limpiar"
-        android:id="@+id/btnLimpiar"
+        android:text="@string/developerInfo"
+        android:id="@+id/btnDev"
         android:layout_weight="1"
-        />
+        style="@style/Widget.AppCompat.Button.Small" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="68dp"

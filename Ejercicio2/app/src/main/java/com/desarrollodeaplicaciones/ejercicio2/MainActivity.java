@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLimpiar;
     Persona p;
     int cve;
-    TextView txtReco;
+    Button btnDevInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         txtResult=(TextView)findViewById(R.id.txtResultado);
         btnCalcular=(Button)findViewById(R.id.btnCalcular);
         btnLimpiar=(Button)findViewById(R.id.btnLimpiar);
+        btnDevInfo=(Button)findViewById(R.id.btnDev);
 
         //Asociar escucha al boton para el evento Click
         btnCalcular.setOnClickListener(new View.OnClickListener(){
@@ -66,18 +67,13 @@ public class MainActivity extends AppCompatActivity {
                if(p.getImc()<20){
                     p.setStatus("Bajo");
                    cve = 1;
-//                    imgPeso.setImageResource(R.drawable.chavelo);
                 }else if(p.getImc() >20 && p.getImc() < 25){
                     p.setStatus("Normal");
                    cve =2;
-//                    imgPeso.setImageResource(R.drawable.yea);
                 }else if (p.getImc()>25){
                     p.setStatus("Sobre Peso");
                    cve=3;
-//                    imgPeso.setImageResource(R.drawable.pg);
                 }
-
-
 
                 txtResult.setText(p.toString());
 
@@ -100,6 +96,14 @@ public class MainActivity extends AppCompatActivity {
                 rdMujer.setChecked(false);
                 rdHombre.setChecked(false);
                 txtResult.setText("");
+            }
+        });
+
+        btnDevInfo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DeveloperData.class);
+                startActivity(intent);
             }
         });
     }

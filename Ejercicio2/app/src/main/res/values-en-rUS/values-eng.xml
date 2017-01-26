@@ -11,6 +11,7 @@
     <string name="peso">Weigth in kg</string>
     <string name="limpiar">Clear all data</string>
     <string name="regresar">Back</string>
+    <string name="developerInfo">Developer Information</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>

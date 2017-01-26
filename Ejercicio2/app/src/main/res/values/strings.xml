@@ -10,6 +10,7 @@
     <string name="peso">Peso en kg</string>
     <string name="limpiar">Limpiar datos</string>
     <string name="regresar">Regresar</string>
+    <string name="developerInfo">Información del Desarrollador</string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>

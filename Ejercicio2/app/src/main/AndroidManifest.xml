@@ -25,6 +25,7 @@
         <activity
             android:name=".DatosPersona"
             android:label="@string/app_name" />
+        <activity android:name=".DeveloperData"></activity>
     </application>
 
 </manifest>
